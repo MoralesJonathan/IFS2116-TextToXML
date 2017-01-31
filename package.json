@@ -8,6 +8,12 @@
   "dependencies": {
     "async": "~0.2.8",
     "express": "~3.2.4",
+    "pretty-xml": "^1.2.1",
     "socket.io": "~0.9.14"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-uglify": "^2.0.1"
   }
 }
