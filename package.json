@@ -1,15 +1,13 @@
 {
-  "name": "chat-example",
+  "name": "Text To XML",
   "version": "0.0.0",
-  "description": "A chat example to showcase how to use `socket.io` with a static `express` server with `async` for control flow.",
+  "description": "A text to XML converter for the IFS 2116 Course at FSU",
   "main": "server.js",
   "repository": "",
-  "author": "Mostafa Eweda <mo.eweda@gmail.com>",
+  "author": "Jonathan Morales",
   "dependencies": {
-    "async": "~0.2.8",
     "express": "~3.2.4",
-    "pretty-xml": "^1.2.1",
-    "socket.io": "~0.9.14"
+    "pretty-xml": "^1.2.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
