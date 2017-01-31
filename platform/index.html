@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+</html>
+
+<head>
+	<title>Text to XML</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet">
+	<link rel="stylesheet" href="css/materialize.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+	<nav>
+		<div class="nav-wrapper">
+			<div class="container-wide">
+				<a href="#" class="brand-logo">T2XML</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<ul class="right hide-on-med-and-down">
+					<li><a href="#">About</a></li>
+					<li><a href="#">How it works</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+				<ul class="side-nav" id="mobile-demo">
+					<li><a href="#">About</a></li>
+					<li><a href="#">How it works</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="hero">
+		<div class="container">
+			<div class="row">
+				<div class="col s12 m4 offset-m4 l8 offset-l2">
+					<p class="center-align flow-text hero-heading">Turn your text to XML in-browser</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m4 offset-m4 l8 offset-l2">
+					<p class="center-align flow-text hero-subheading">Speed up production with an easy to use interface</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m4 offset-m4 l8 offset-l2 center">
+					<div class="hero-btn">
+						<a class="waves-effect waves-light btn" href="#use">Try Now</a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col s12 m4 offset-m4 l8 offset-l2 center">
+					<img class="responsive-img hero-img" src="http://placehold.it/600x300">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="section" id="use">
+  		<div class="row">
+  		  <form class="col s12" action="getxml" method="post">
+  		    <div class="row">
+  		      <div class="input-field col s12">
+  		        <textarea id="textarea1" class="materialize-textarea"></textarea>
+  		        <label for="textarea1">Textarea</label>
+  		      </div>
+  		    </div>
+  		  </form>
+			</div>
+		</div>
+	</div>
+	<footer class="page-footer blue darken-4">
+		<div class="footer-copyright">
+			<div class="container">&copy 2017 Copyright Jonathan Morales<a class="grey-text text-lighten-4 right" href="#!">More Projects</a>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+</body>
+
+</html>
