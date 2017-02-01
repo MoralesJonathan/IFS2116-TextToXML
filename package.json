@@ -1,13 +1,14 @@
 {
-  "name": "Text To XML",
+  "name": "TextToXML",
   "version": "0.0.0",
   "description": "A text to XML converter for the IFS 2116 Course at FSU",
   "main": "server.js",
   "repository": "",
   "author": "Jonathan Morales",
   "dependencies": {
+    "body-parser": "^1.16.0",
     "express": "~3.2.4",
-    "pretty-xml": "^1.2.1"
+    "pretty-data": "^0.40.0"
   },
   "devDependencies": {
     "gulp": "^3.9.1",

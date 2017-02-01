@@ -20,14 +20,14 @@
 				<a href="#" class="brand-logo">T2XML</a>
 				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 				<ul class="right hide-on-med-and-down">
-					<li><a href="#">About</a></li>
-					<li><a href="#">How it works</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#how">How it works</a></li>
 					<li><a href="#contactmodal" class="modal-trigger">Contact</a></li>
 				</ul>
 				<ul class="side-nav" id="mobile-demo">
-					<li><a href="#">About</a></li>
-					<li><a href="#">How it works</a></li>
-					<li><a href="#">Contact</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#how">How it works</a></li>
+					<li><a href="#contactmodal" class="modal-trigger">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -92,28 +92,39 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row" style="margin-bottom:0">
 				<div class="col s12 m4 offset-m4 l8 offset-l2 center">
 					<img class="responsive-img hero-img " src="http://placehold.it/600x300">
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		<div class="section" id="use">
+	<div class="section" id="use">
+		<div class="container">
 			<div class="row">
 				<div class="col s12">
+					<div class="title">
+						<h4>Convert</h4>
+					</div>
 					<div id="instructions">
-						<h4>Ready to get started? Paste your text and click 'Next'!</h4>
+						<p>Ready to get started? Paste your text and click 'Next'!</p>
 					</div>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col s12">
+				<div class="col s6">
 					<div class="row">
 						<div class="input-field col s12">
-							<textarea id="usrTextInput" class="materialize-textarea"></textarea>
-							<label for="usrTextInput">Textarea</label>
+							<textarea id="usrTextInput" placeholder="Paste text here!" class="materialize-textarea"></textarea>
+							<label for="usrTextInput">Text Input</label>
+						</div>
+					</div>
+				</div>
+				<div class="col s6">
+					<div class="row">
+						<div class="input-field col s12">
+							<textarea id="xmlOutput" placeholder="XML will show here" class="materialize-textarea custom-textarea" readonly></textarea>
+							<label for="xmlOutput">XML Output</label>
 						</div>
 					</div>
 				</div>
@@ -124,64 +135,32 @@
 					<a id="generate-btn" class="waves-effect waves-light btn">Generate</a>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col s6">
-					<div id="loader">
-						<div class="preloader-wrapper big active">
-							<div class="spinner-layer spinner-blue">
-								<div class="circle-clipper left">
-									<div class="circle"></div>
-								</div>
-								<div class="gap-patch">
-									<div class="circle"></div>
-								</div>
-								<div class="circle-clipper right">
-									<div class="circle"></div>
-								</div>
-							</div>
-	
-							<div class="spinner-layer spinner-red">
-								<div class="circle-clipper left">
-									<div class="circle"></div>
-								</div>
-								<div class="gap-patch">
-									<div class="circle"></div>
-								</div>
-								<div class="circle-clipper right">
-									<div class="circle"></div>
-								</div>
-							</div>
-	
-							<div class="spinner-layer spinner-yellow">
-								<div class="circle-clipper left">
-									<div class="circle"></div>
-								</div>
-								<div class="gap-patch">
-									<div class="circle"></div>
-								</div>
-								<div class="circle-clipper right">
-									<div class="circle"></div>
-								</div>
-							</div>
-	
-							<div class="spinner-layer spinner-green">
-								<div class="circle-clipper left">
-									<div class="circle"></div>
-								</div>
-								<div class="gap-patch">
-									<div class="circle"></div>
-								</div>
-								<div class="circle-clipper right">
-									<div class="circle"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
 		</div>
 	</div>
-	<footer class="page-footer blue darken-4">
+	<div class="section" id="how">
+		<div class="container">
+			<h4>How it works</h4>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas placerat dolor. Proin lacinia dictum tellus, in placerat quam hendrerit sed. Morbi erat mauris, tempor quis pulvinar ac, tempor ut ante. Quisque nec velit ultricies diam ornare
+				auctor vitae ac sem. Donec cursus mi dui, nec posuere nisl bibendum eu. Sed dapibus eu enim sit amet mollis. Suspendisse feugiat risus non nisi cursus, et vehicula enim semper. Vestibulum vitae massa nunc. Pellentesque finibus pharetra vestibulum.
+				Etiam tincidunt mauris massa, nec vestibulum enim interdum nec. Mauris maximus, massa non pretium sollicitudin, quam orci suscipit leo, interdum volutpat tortor purus nec metus. Aliquam sit amet rhoncus odio, vitae semper tortor. Mauris tempus eu
+				lacus fermentum volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+			</p>
+		</div>
+	</div>
+	<div class="section" id="about">
+		<div class="container">
+			<h4>About</h4>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur egestas placerat dolor. Proin lacinia dictum tellus, in placerat quam hendrerit sed. Morbi erat mauris, tempor quis pulvinar ac, tempor ut ante. Quisque nec velit ultricies diam ornare
+				auctor vitae ac sem. Donec cursus mi dui, nec posuere nisl bibendum eu. Sed dapibus eu enim sit amet mollis. Suspendisse feugiat risus non nisi cursus, et vehicula enim semper. Vestibulum vitae massa nunc. Pellentesque finibus pharetra vestibulum.
+				Etiam tincidunt mauris massa, nec vestibulum enim interdum nec. Mauris maximus, massa non pretium sollicitudin, quam orci suscipit leo, interdum volutpat tortor purus nec metus. Aliquam sit amet rhoncus odio, vitae semper tortor. Mauris tempus eu
+				lacus fermentum volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent venenatis aliquet convallis. Sed augue tortor, mollis nec semper mattis, porttitor ut orci. Vestibulum semper ante tincidunt dui mollis, ut suscipit enim sagittis. Cras porttitor nibh sit amet elit iaculis aliquet. Morbi venenatis velit in augue ultrices tincidunt. Phasellus dapibus vel quam sit amet scelerisque. Nullam cursus sollicitudin sem non cursus. Quisque viverra id arcu in dictum. Fusce congue at mi non volutpat.
+				Nullam vel elementum libero. Proin facilisis malesuada sagittis. Aenean ut enim vehicula, elementum tortor in, ultrices neque. Proin id pellentesque dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla varius aliquet ultrices. Pellentesque scelerisque ultricies congue. Sed leo ex, consequat non pellentesque ac, aliquam venenatis massa. Nullam viverra semper lacus. Sed auctor faucibus aliquam. Donec varius nunc sit amet efficitur lobortis. Cras finibus bibendum dolor eget tempus. Proin commodo molestie luctus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+			</p>
+		</div>
+	</div>
+	<footer class="page-footer foot-color">
 		<div class="footer-copyright">
 			<div class="container">&copy 2017 Copyright Jonathan Morales<a class="grey-text text-lighten-4 right" href="https://Dig-Eg-Gaz.github.io">Dig-Eg-Gaz</a>
 			</div>
@@ -190,6 +169,7 @@
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
 	<script type="text/javascript" src="js/materialize.js"></script>
+	<script type="text/javascript" src="js/vkbeautify.js"></script>
 </body>
 
 </html>
